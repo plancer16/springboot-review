@@ -11,8 +11,8 @@
     - return new SQL() //动态sql
     
 3、/controller中控制url映射到mapper
-- controller以@Pathvarible解析参数
-- mapper以@Param把参数赋值给@Param("x")
+- controller以@Pathvarible从url解析到方法参数
+- mapper以@Param把方法参数赋值给@Param("x")，再传递到SQL语句中
 
 ## 多模块整合
 一个maven为基础的根工程下整个多个子模块，注意：

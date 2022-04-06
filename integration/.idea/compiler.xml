@@ -6,9 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mm-repo" />
         <module name="mm-web" />
         <module name="mm-entity" />
+        <module name="mm-repo" />
         <module name="mm-service" />
       </profile>
     </annotationProcessing>
